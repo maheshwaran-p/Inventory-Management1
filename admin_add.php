@@ -11,6 +11,8 @@
   $result1=$con->query($sql1);
 
   ?>
+
+
 <html>
 <head>
 <meta charset="UTF-8">
