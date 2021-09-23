@@ -17,6 +17,15 @@ session_start();//session starts here
 
 </style>
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
 <body>
 <h1 align="center">Inventory Management System</h1>
 
@@ -67,6 +76,9 @@ if(isset($_POST['login']))
     $emp_no=$_POST['empno'];
     $user_pass=$_POST['pass'];
 
+    
+    
+    
     $check_user="select * from employees WHERE emp_no='$emp_no' AND passcode='$user_pass'";
 
     $run=mysqli_query($dbcon,$check_user);
