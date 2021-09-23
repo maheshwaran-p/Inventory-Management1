@@ -10,6 +10,8 @@ if($mysqli->connect_error){
 ?>
 <!DOCTYPE html>
 <html lang="en">
+    
+    
 <head>
   <title>Outward management</title>
   <meta charset="utf-8">
